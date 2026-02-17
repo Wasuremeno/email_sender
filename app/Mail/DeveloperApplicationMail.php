@@ -30,7 +30,7 @@ class DeveloperApplicationMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: "Отклик на {$this->vacancyTitle} — Дмитрий Власкин",
+            subject: 'Резюме', // Changed to just "Резюме"
         );
     }
 

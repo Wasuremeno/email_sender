@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Дмитрий Власкин — Fullstack Developer</title>
 </head>
 <body style="margin:0; padding:0; background-color:#0F2625;">
 
+<!-- IMPORTANT: Preheader text - this helps prevent collapsing -->
+<span style="color:transparent; display:none !important; visibility:hidden; opacity:0; height:0; width:0; font-size:0; line-height:0; mso-hide:all;">
+    Fullstack Developer отклик на вакансию - Дмитрий Власкин, PHP, Laravel, Docker
+</span>
+
+<!-- IMPORTANT: Force Gmail to render full content -->
+<div style="display:none !important; visibility:hidden; opacity:0; height:0; width:0; font-size:0; line-height:0; mso-hide:all;">
+    &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;
+</div>
+
+<!-- Main content -->
 <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0F2625">
     <tr>
         <td align="center">
-            <table width="720" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="margin:60px 0;">
+            <!-- Add a visible text at the very top -->
+            <div style="color:#0F2625; background-color:#0F2625; font-size:1px; line-height:1px; mso-line-height-rule:exactly;">
+                &nbsp;Fullstack Developer - PHP, Laravel, Docker, Kubernetes&nbsp;
+            </div>
+            
+            <table width="720" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="margin:60px 0; max-width:720px; width:100%;">
 
-                <!-- HEADER -->
+                <!-- HEADER with inline styles only -->
                 <tr>
                     <td bgcolor="#002F2E" style="padding:60px 70px 50px 70px;">
                         <h1 style="color:#FFFFFF; font-size:36px; margin:0; font-family:Arial, sans-serif; font-weight:bold; letter-spacing:0.5px;">
@@ -162,6 +179,11 @@
         </td>
     </tr>
 </table>
+
+<!-- Add a visible marker at the bottom -->
+<div style="color:#0F2625; background-color:#0F2625; font-size:1px; line-height:1px; text-align:center; mso-line-height-rule:exactly;">
+    &nbsp;Конец резюме - Дмитрий Власкин Fullstack Developer&nbsp;
+</div>
 
 </body>
 </html>
