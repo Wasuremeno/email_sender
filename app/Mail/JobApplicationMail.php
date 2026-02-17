@@ -8,20 +8,20 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class JobApplicationMail extends Mailable
+class DeveloperApplicationMail extends Mailable
 {
     use Queueable, SerializesModels;
 
     public $companyName;
-    public $position;
+    public $vacancyTitle;
 
     /**
      * Create a new message instance.
      */
-    public function __construct($companyName, $position = 'вакансию')
+    public function __construct($companyName, $vacancyTitle = 'вакансию')
     {
         $this->companyName = $companyName;
-        $this->position = $position;
+        $this->vacancyTitle = $vacancyTitle;
     }
 
     /**
@@ -30,7 +30,7 @@ class JobApplicationMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: "Отклик на вакансию {$this->position} - Дмитрий Власкин",
+            subject: "Отклик на {$this->vacancyTitle} — Дмитрий Власкин",
         );
     }
 
@@ -40,7 +40,7 @@ class JobApplicationMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.job-application',
+            view: 'emails.developer-application',
         );
     }
 }
