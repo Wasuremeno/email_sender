@@ -51,7 +51,7 @@
                     <td style="padding:50px 70px 30px 70px; font-family:Arial, sans-serif; color:#1A2F2E; font-size:16px; line-height:1.7;">
                         Здравствуйте@if($companyName), команда {{ $companyName }}@endif.
                         <br><br>
-                        Откликаюсь на вашу {{ $vacancyTitle }}. Специализируюсь на fullstack-разработке,
+                        Откликаюсь на вашу вакансию {{ $vacancyTitle }}. Специализируюсь на fullstack-разработке,
                         backend-архитектуре и построении production-инфраструктуры.
                     </td>
                 </tr>
