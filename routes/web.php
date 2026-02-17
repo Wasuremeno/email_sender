@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\EmailTestController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [EmailTestController::class, 'showForm']);
+Route::post('/send-test-email', [EmailTestController::class, 'sendTest']);
